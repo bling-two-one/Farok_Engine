@@ -3,8 +3,6 @@ import farok_gearworkgolem
 import time
 from random import *
 
-"""commit"""
-
 def wait():
     time.sleep(1.5)
 
