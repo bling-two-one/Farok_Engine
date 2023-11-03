@@ -2,8 +2,6 @@ import pygame
 from random import *
 from math import *
 
-"""test"""
-
 """
 기본 클래스 설정
 """
