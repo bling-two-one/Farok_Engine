@@ -1,10 +1,10 @@
+import pygame
 from random import *
 from math import *
 
 """
 기본 클래스 설정
 """
-"""test"""
 
 """
 기본 열 계산: 

@@ -1,6 +1,7 @@
 import farok_engine
 import farok_gearworkgolem
 import time
+import pygame
 from random import *
 
 def wait():
