@@ -22,3 +22,5 @@ while not close:
             close=True # Flag that we are done so we exit this loop
 
     pygame.display.flip()
+    
+pygame.quit()
