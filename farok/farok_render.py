@@ -1,4 +1,5 @@
 import pygame
+import sys
 
 pygame.init()
 
@@ -15,9 +16,10 @@ screen = pygame.display.set_mode(size)
 
 #게임 종료 판정
 run = True
+
 clock = pygame.time.Clock()
 
-while(True):
+while True:
 
     #프레임 제한(현재 30)
     clock.tick(30)
@@ -29,8 +31,10 @@ while(True):
     #이벤트 감지
     for event in pygame.event.get(): #유저가 뭔가 함
         if event.type == pygame.QUIT: #유저가 누름 == 무엇
-            close=False #무엇 함
+            pygame.quit()
+            sys.exit()
+            
 
-    pygame.display.flip()
+    pygame.display.update()
     
 pygame.quit()
