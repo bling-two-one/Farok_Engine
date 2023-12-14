@@ -49,7 +49,7 @@ class Entity:
     hp = None #체력 설정
     defaultinit = None #기본 행동권 (고유)
     initiative = None #현재 보유 행동권 (int)
-    defaultdmgrec = None #기본 방어도 (받뎀감) (음수 float)
+    defaultdmgrec = None #기본 방어도 (받뎀감) (float)
     defaultdodge = None #기본 회피
     type1 = None #속성 (str)
     type2 = None
